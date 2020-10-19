@@ -1,0 +1,15 @@
+    <html>
+        <body>
+            <div id="a" onclick="copyDivToClipboard()"> Click to copy </div>
+            <script>
+                function copyDivToClipboard() {
+                    var range = document.createRange();
+                    range.selectNode(document.getElementById("a"));
+                    window.getSelection().removeAllRanges(); // clear current selection
+                    window.getSelection().addRange(range); // to select text
+                    document.execCommand("copy");
+                    window.getSelection().removeAllRanges();// to deselect
+                }
+            </script>
+        </body>
+    </html>

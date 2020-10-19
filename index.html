@@ -1,0 +1,621 @@
+<!DOCTYPE html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="homestyles.css">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+
+	<link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <script type="text/javascript" src="animation.js"></script>
+</head>
+
+
+<body>
+<!--FORTESTING-->
+<!--div class = "fixedNav">
+	  	<p id="variables"> scrolly left dummy diff</p>
+		</div-->
+<!-- Navigation___________-->
+
+
+
+
+<svg class = "mHide" id="fader"></svg>
+ <script>
+            fadeInPage();
+        </script>
+
+<div class = "topnav">	
+	   <div>
+	   <a class="active" href="index.html">Jessica Shen</a>
+	   <a href="javascript:void(0);" class="icon" onclick="mobileNav()">&#9776;</a>
+	 
+	   <div class="topnav-right" id = "responsivenav">
+		    <a href="index.html" class ="navitem">Featured</a>
+		    <a href="experiments.html" class ="navitem">Experiments</a>
+		    <a href="about.html" class ="navitem">About</a>
+	  </div>
+	</div>
+</div>
+
+
+
+<!-- svgs______________-->
+<svg class = "arrowSymbol" width="69" height="8" viewBox="0 0 69 8" xmlns="http://www.w3.org/2000/svg"><symbol id= "arrow"> 
+<path fill-rule="evenodd" clip-rule="evenodd" d="M65.8989 3.49994C64.908 2.92241 63.8465 2.04934 63.0713 0.757187L63.9287 0.242691C65.2962 2.52183 67.7275 3.32374 68.5512 3.49994H68.6001V4.49994H68.5512C67.7275 4.67614 65.2962 5.47805 63.9287 7.75719L63.0713 7.24269C63.8465 5.95054 64.908 5.07747 65.8989 4.49994H0.600098V3.49994H65.8989Z" fill="#c8c8c8"/></symbol>
+</svg>
+
+
+
+<svg width="49" height="21" viewBox="0 0 49 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+	<symbol id= "lineStart"> 
+<path fill-rule="evenodd" clip-rule="evenodd" d="M0.5 0V21H1H1.5H49V20H1.5L1.5 0H0.5Z" fill="#c8c8c8"/></symbol>
+</svg>
+
+
+
+
+<svg width="150" height="40" viewBox="0 0 150 40" fill="none" xmlns="http://www.w3.org/2000/svg"><symbol id = "tippy">
+<mask id="path-1-inside-1" fill="#FFFFFF">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M19 0C15.6863 0 13 2.68629 13 6V12.6357L0.696198 19.7393L13 26.8429V34C13 37.3137 15.6863 40 19 40H144C147.314 40 150 37.3137 150 34V6C150 2.68629 147.314 0 144 0H19Z"/>
+</mask>
+<path d="M13 12.6357L13.5 13.5017L14 13.213V12.6357H13ZM0.696198 19.7393L0.196197 18.8732L-1.3038 19.7393L0.196198 20.6053L0.696198 19.7393ZM13 26.8429H14V26.2655L13.5 25.9768L13 26.8429ZM14 6C14 3.23858 16.2386 1 19 1V-1C15.134 -1 12 2.13401 12 6H14ZM14 12.6357V6H12V12.6357H14ZM1.1962 20.6053L13.5 13.5017L12.5 11.7696L0.196197 18.8732L1.1962 20.6053ZM13.5 25.9768L1.1962 18.8732L0.196198 20.6053L12.5 27.7089L13.5 25.9768ZM14 34V26.8429H12V34H14ZM19 39C16.2386 39 14 36.7614 14 34H12C12 37.866 15.134 41 19 41V39ZM144 39H19V41H144V39ZM149 34C149 36.7614 146.761 39 144 39V41C147.866 41 151 37.866 151 34H149ZM149 6V34H151V6H149ZM144 1C146.761 1 149 3.23858 149 6H151C151 2.13401 147.866 -1 144 -1V1ZM19 1H144V-1H19V1Z" fill="#FFFFFF" mask="url(#path-1-inside-1)"/>
+</svg>
+
+
+
+
+<!--Side Scrolling Section___________-->
+<div id="page">
+    <div class="pane c0 img_wrap"> 
+						  	
+
+						  	<div class = "stacked">
+
+									   	<!--a class="paneLink" href = "project01.html"-->
+						  				<div class = "stack1">
+										   				<p class = "HiThere">Hi there! I'm Jess.</p>
+										   				<p class = "aboutMe"> I'm an experience designer and animator.  I create products that inspire people to explore their world a little differently. 
+
+														<br> <br>Currently an Experience Design Director at R/GA in New York City.   
+										   				</p>
+														<a href="about.html" class = "CTA">
+														         <img alt="Qries" src="assets/00_ABOUT/about.gif"
+														         width="150" height="150">
+														      </a>
+												
+												</div>	
+												<div class = "stack2 mHide">
+										   				<p class = "b2"> find me on the internet:</p>
+														<div class="tooltip" >
+															<div
+															onclick="copyDivToClipboard()" onmouseout="outFunc()" class = "abc">
+															<p id = "emailCopy">j.mw.shen@gmail.com</p>   
+															<span class="tooltiptext tip2" id="myTooltip">📋 Click to copy</span>
+															<svg class = "tooltiptext" width="180" height="40" ><use href="#tippy" /></svg>
+															</div>
+														</div>
+												</div>		
+										   				<div class = "social mHide socialStack" > 
+										   					<a href="https://www.linkedin.com/in/jessshen/"><img class = "social1" src="assets/social/linkedin.png"></a>
+										   					<a href="https://www.linkedin.com/in/jessshen/"><img class = "social1" src="assets/social/wnw.png"></a>
+										   					<a href="https://www.instagram.com/jes.sh/"><img class = "social1" src="assets/social/insta.png"></a>
+										   				</div>
+										   				<p class = "credit mHide"> Design & Development © Jessica Shen 2020</p>	
+							</div>
+  </div>
+	<!--__________Project 1: MAILCHIMP__________-->
+  <div class="pane c1 img_wrap" > 
+  						<a href = "project01.html" class = "content"> 
+							<div class = "projNum">Ø1 </div>
+							<div class = "everything">
+								   <div class = "imgContainer img01"> <img class = "homeCover" src="assets/01_MCP/01m_cover.jpg" class= "projImage01"></div>
+								   <p class = "pn1"> Launching a <br> New Media Site </p>
+								   <div class = "descrip">
+								   	    <svg class = "pskills0 mHide" width="69" height="60" ><use href="#lineStart" /></svg>
+									   <div class = "pskills b2"> <p class="b2"> Experience design
+									   							<br> Motion Design
+									   							<br> Experience Strategy
+									   							</p> </div>
+									   <svg class = "pskills2" width="69" height="12" ><use href="#arrow" /></svg>
+									   <div class = "pskills3"> <p class ="b2">Mailchimp 
+									   								       <br>X Courier
+									    </p></div>
+									</div>
+							</div>
+						</a>
+
+   	</div>
+	<!--__________   Project 2: JUICE____________________-->
+  <div class="pane c2 img_wrap">	
+  					<a href = "project01.html"  class = "content">
+						<div class = "projNum">Ø2</div>
+						<div class = "everything">
+
+								   <div class = "imgContainer img02" > 
+								   		<img class ="homeCover" id = "animated" src = "assets/02_JUICE/02j_cover.jpg">
+								   		<img class ="homeCover" id = "static" src = "assets/02_JUICE/02j_cover.png">
+								   </div>
+
+								   <p class = "pn1"> Reinventing <br>Your Data Plan </p>
+								  
+								   <div class = "descrip">
+								   		<svg class = "pskills0 mHide" width="69" height="60" ><use href="#lineStart" /></svg>
+									   <div class = "pskills b2"> <p class="b2"> Experience design
+									   							<br> Motion Design
+									   							<br> Experience Strategy
+									   							</p> </div>
+									   <svg class = "pskills2" width="69" height="12" ><use href="#arrow" /></svg>
+									   <div class = "pskills3"> <p class ="b2">Verizon </p></div>
+									</div>
+
+						</div>
+				</a>
+  </div>
+
+
+	<!--__________   Project 3: CHASE____________________-->
+  <div class="pane c3 img_wrap">
+		<div class = "stacked">
+
+									   	<!--a class="paneLink" href = "project01.html"-->
+						  				<a href = "project01.html"  class = "stack3 content">
+											<div class = "projNum"> Ø3 </div>
+											<div class = "everything">
+												   <div class = "imgContainer img03"> 
+												   	<img class ="homeCover" src="assets/03_CHASE/03c_cover.png" class= "projImage" >
+												   </div>
+												   <p class = "pn1"> Envisioning the <br> Future of Banking </p>
+												   <div class = "descrip">
+												   	    <svg class = "pskills0 mHide" width="69" height="60" ><use href="#lineStart" /></svg>
+													   <div class = "pskills b2"> <p class="b2"> Experience design
+													   							<br> Motion Design
+													   							<br> Experience Strategy
+													   							</p> </div>
+													   <svg class = "pskills2" width="69" height="12" ><use href="#arrow" /></svg>
+													   <div class = "pskills3"> <p class ="b2">Verizon </p></div>
+													</div>
+											</div>
+										</a>
+
+										<!--div onclick = "location.href = 'project01.html';" class = "stack4 mHide">
+										   				<a href= "experiments.html"> <p class = "CTAtext">I'm a serial dabbler - Check out my design experiments!</p></a>
+							</div-->
+
+
+
+		</div>
+
+
+  						
+  </div> 
+
+
+	<!--__________   Project 4: SAMSUNG____________________-->
+  <div class="pane c4 img_wrap">  
+    						<a href = "SamsungNote8.html" class = "content">
+
+							   	   <div class = "projNum">Ø4</div>
+
+								   <div class= "everything">
+								   <div class = "imgContainer img04" > 
+								   		<img class ="homeCover" id = "animated" src = "assets/04_SAMSUNG/04s_cover.gif">
+								   		<img class ="homeCover" id = "static" src = "assets/04_SAMSUNG/04s_cover.png">
+								   </div>
+
+								   <p class = "pn1"> Introducing <br> Galaxy Note 8</p>
+								   <div class = "descrip">
+								   	 <svg class = "pskills0 mHide" width="69" height="60" ><use href="#lineStart" /></svg>
+									   <div class = "pskills b2"> <p class="b2"> Experience design
+									   							<br> 3D Animation
+									   							<br> Art Direction
+									   							</p> </div>
+									   <svg class = "pskills2" width="69" height="12" ><use href="#arrow" /></svg>
+									   <div class = "pskills3"> <p class ="b2">Samsung </p></div>
+									</div>
+								</div>
+						</a>
+
+
+
+  </div>
+
+	<!--__________   Project 5: Hawke____________________-->
+    <div class="pane c5 img_wrap">  	 						
+						  				<a href = "project01.html"   class = "content">
+											   	   <div class = "projNum">Ø5 </div>
+											   	   <div class = "everything">
+											   	    <div class = "imgContainer img05"> 
+
+											   	    	<img class ="homeCover" src="assets/05_HAWKE/05h_cover.png" class= "projImage" style="width:100%;"></div>
+												   <p class = "pn1"> Streamlining Transaction <br> Banking Systems 🔒</p>
+												   <div class = "descrip">
+												   	    <svg class = "pskills0 mHide" width="69" height="60" ><use href="#lineStart" /></svg>
+													   <div class = "pskills b2"> <p class="b2"> Leadership & Management 
+													   											<br>Ways of Working
+													   											<br> Experience Design
+
+													   							</p> </div>
+													   <svg class = "pskills2" width="69" height="12" ><use href="#arrow" /></svg>
+													   <div class = "pskills3"> <p class ="b2">_______ </p></div>
+													</div>
+												</div>
+
+										</a>
+
+  </div>
+
+	<!--__________   Project 6: G-Tech____________________-->
+  <div class="pane c6 img_wrap"> 
+		<div class ="stacked">
+				  		<a href = "project01.html" class = "stack5 content">
+											   	   <div class = "projNum">Ø6 </div>
+
+
+											   	   <div class = "everything">
+												   <div class = "imgContainer img06"> 
+								   		<img class ="homeCover" id = "animated" src = "assets/06_GTEAM/06g_cover2.gif">
+								   		<img class ="homeCover" id = "static" src = "assets/06_GTEAM/06g_cover.png"></div>
+												   <p class = "pn1"> Defining Brand Motion </p>
+												   <div class = "descrip">
+												   	    <svg class = "pskills0 mHide" width="69" height="60" ><use href="#lineStart" /></svg>
+													   <div class = "pskills b2"> <p class="b2">Motion Design
+									
+													   							</p> </div>
+													   <svg class = "pskills2" width="69" height="12" ><use href="#arrow" /></svg>
+													   <div class = "pskills3"> <p class ="b2">Western Digital </p></div>
+													</div>
+												</div>
+										</a>
+										<!--div onclick = "location.href = 'motion.html';" class = "stack6 mHide">
+										   				<div class = "imgContainer img06"> <img src="assets/06_GTEAM/motion2.png" class= "projImage" style="width:70%;"></div>
+							</div-->
+
+		</div>
+  </div>
+
+	<!--______________   Project 7: Taggle____________________-->
+    <!--div class="pane c7 img_wrap">  	 						
+  						<div onclick = "location.href = 'project01.html';" class = "content">
+							   	   <div class = "projNum">Ø7 </div>
+							   	   <div class = "everything">
+								   <div class = "imgContainer img07"> <img class ="homeCover"  src="assets/09_TAGGLE/09t_cover.png" class= "projImage" style="width:100%;"></div>
+								   <p class = "pn1"> 
+								    Banking </p>
+								   <div class = "descrip">
+								   	    <svg class = "pskills0 mHide" width="69" height="60" ><use href="#lineStart" /></svg>
+									   <div class = "pskills b2"> <p class="b2"> Experience Strategy
+									   											 <br> Experience Design
+									   											 <br> Motion Design
+									
+									   							</p> </div>
+									   <svg class = "pskills2" width="69" height="12" ><use href="#arrow" /></svg>
+									   <div class = "pskills3"> <p class ="b2">Simplifying Email</p></div>
+									</div>
+								</div>
+						</div>
+  </div-->
+
+  <!-- endStart necessary for JS-->
+
+  <!--_______________   Project 8: SXSW____________________-->
+  <div class="pane c8 img_wrap" id ="endStart">  	 						
+  						<a href = "project01.html" class = "content">
+							   	   <div class = "projNum">Ø8 </div>
+							   	   <div class = "everything">
+								   <div class = "imgContainer img08"> <img class ="homeCover" src="assets/08_SXSW/08s_cover.jpg" class= "projImage" style="width:100%;"></div>
+								   <p class = "pn1"> Discovering Cultural <br> Design Differences </p>
+								   <div class = "descrip">
+								   	    <svg class = "pskills0 mHide" width="69" height="60" ><use href="#lineStart" /></svg>
+									   <div class = "pskills b2"> <p class="b2"> Experience Analysis
+									   										<br> Research
+									   										<br> Public Speaking
+									
+									   							</p> </div>
+									   <svg class = "pskills2" width="69" height="12" ><use href="#arrow" /></svg>
+									   <div class = "pskills3"> <p class ="b2">SXSW 2020
+									   	<br> R/GA's Creativity X
+									   	<br> R/GA FutureVision
+									   	<br> Brown/RISD Fall 2020
+
+									   </p></div>
+									</div>
+								</div>
+						</a>
+  </div>
+
+
+<!--____________________________________________   Repeat cards____________________________________________________-->
+<!--____________________________________________   Repeat cards____________________________________________________-->
+<!--____________________________________________   Repeat cards____________________________________________________-->
+<!--____________________________________________   Repeat cards____________________________________________________-->
+<!--____________________________________________   Repeat cards____________________________________________________-->
+<!--____________________________________________   Repeat cards____________________________________________________-->
+<!--____________________________________________   Repeat cards____________________________________________________-->
+<!--____________________________________________   Repeat cards____________________________________________________-->
+
+
+    <div class="pane c0 mHide img_wrap"> 
+						  		<div class = "stacked">
+
+									   	<!--a class="paneLink" href = "project01.html"-->
+						  				<div class = "stack1">
+														<p class = "HiThere">Hi there! I'm Jess.</p>
+														<div class = "aboutdescrip">
+										   				<p class = "aboutMe"> I'm an experience designer and animator.  I create products that inspire people to explore their world a little differently. 
+
+														<br> <br>Currently an Experience Design Director at R/GA in New York City.   
+										   				</p>
+														<a href="about.html" class = "CTA">
+														         <img alt="Qries" src="assets/00_ABOUT/about.gif"
+														         width="150" height="150">
+														      </a> </div>
+												
+												</div>	
+												<div class = "stack2 mHide">
+										   				<p class = "b2"> find me on the internet:</p>
+														<div class="tooltip" >
+															<div
+															onclick="copyDivToClipboard()" onmouseout="outFunc()" class = "abc">
+															<p id = "emailCopy">j.mw.shen@gmail.com</p>   
+															<span class="tooltiptext tip2" id="myTooltip2">📋 Click to copy</span>
+															<svg class = "tooltiptext" width="180" height="40" ><use href="#tippy" /></svg>
+															</div>
+														</div>
+												</div>		
+										   				<div class = "social socialStack mHide" > 
+										   					<a href="https://www.linkedin.com/in/jessshen/"><img class = "social1" src="assets/social/linkedin.png"></a>
+										   					<a href="https://www.linkedin.com/in/jessshen/"><img class = "social1" src="assets/social/wnw.png"></a>
+										   					<a href="https://www.instagram.com/jes.sh/"><img class = "social1" src="assets/social/insta.png"></a>
+										   				</div>
+										   				<p class = "credit"> Design & Development © Jessica Shen 2020</p>	
+							</div>
+  </div>
+	<!--__________Project 1: MAILCHIMP__________-->
+  <div class="pane c1 mHide img_wrap" > 
+  						<a href = "project01.html" class = "content"> 
+							<div class = "projNum">Ø1 </div>
+							<div class = "everything">
+								   <div class = "imgContainer img01"> <img class ="homeCover" class = "homeCover" src="assets/01_MCP/01m_cover.jpg" class= "projImage01"></div>
+								   <p class = "pn1"> Launching a <br> New Media Site </p>
+								   <div class = "descrip">
+								   	    <svg class = "pskills0 mHide" width="69" height="60" ><use href="#lineStart" /></svg>
+									   <div class = "pskills b2"> <p class="b2"> Experience design
+									   							<br> Motion Design
+									   							<br> Experience Strategy
+									   							</p> </div>
+									   <svg class = "pskills2" width="69" height="12" ><use href="#arrow" /></svg>
+									   <div class = "pskills3"> <p class ="b2">Mailchimp 
+									   								       <br>X Courier
+									    </p></div>
+									</div>
+							</div>
+						</a>
+
+   	</div>
+	<!--__________   Project 2: JUICE____________________-->
+  <div class="pane c2 mHide img_wrap">	
+  				<a href = "project01.html"   class = "content">
+						<div class = "projNum">Ø2</div>
+						<div class = "everything">
+
+
+
+
+								   <div class = "imgContainer img02" > 
+								   		<img class ="homeCover" id = "animated" src = "assets/02_JUICE/02j_cover.png">
+								   		<img class ="homeCover" id = "static" src = "assets/02_JUICE/02j_cover.png">
+								   </div>
+
+								   <p class = "pn1"> Reinventing <br>Your Data Plan </p>
+								  
+								   <div class = "descrip">
+								   		<svg class = "pskills0 mHide" width="69" height="60" ><use href="#lineStart" /></svg>
+									   <div class = "pskills b2"> <p class="b2"> Experience design
+									   							<br> Motion Design
+									   							<br> Experience Strategy
+									   							</p> </div>
+									   <svg class = "pskills2" width="69" height="12" ><use href="#arrow" /></svg>
+									   <div class = "pskills3"> <p class ="b2">Verizon </p></div>
+									</div>
+
+						</div>
+				</a>
+  </div>
+
+ <div class="pane c3 mHide ">
+		<div class = "stacked">
+
+									   	<!--a class="paneLink" href = "project01.html"-->
+						  				<a href = "project01.html"   class = "stack3 content">
+											<div class = "projNum"> Ø3 </div>
+											<div class = "everything">
+												   <div class = "imgContainer img03"> <img class ="homeCover" src="assets/03_CHASE/03c_cover.png" class= "projImage" style="width:100%;"></div>
+												   <p class = "pn1"> Envisioning the <br> Future of Banking </p>
+												   <div class = "descrip">
+												   	    <svg class = "pskills0 mHide" width="69" height="60" ><use href="#lineStart" /></svg>
+													   <div class = "pskills b2"> <p class="b2"> Experience design
+													   							<br> Motion Design
+													   							<br> Experience Strategy
+													   							</p> </div>
+													   <svg class = "pskills2" width="69" height="12" ><use href="#arrow" /></svg>
+													   <div class = "pskills3"> <p class ="b2">Verizon </p></div>
+													</div>
+											</div>
+										</a>
+
+										<!--div onclick = "location.href = 'project01.html';" class = "stack4 mHide">
+													<a class="paneLink" href = "project01.html">
+									   				<div class = "content">
+										   				<a href= "experiments.html"> <p class = "CTAtext">I'm a serial dabbler - Check out my design experiments!</p></a>
+							</div-->
+
+
+
+		</div>
+
+  						
+  </div> 
+
+
+	<!--__________   Project 4: SAMSUNG____________________-->
+  <div class="pane c4 mHide img_wrap">      						
+  	<a href  = "SamsungNote8.html" class = "content">
+
+							   	   <div class = "projNum">Ø4</div>
+								   <div class= "everything">
+								   <div class = "imgContainer img04" > 
+								   		<img class ="homeCover" id = "animated" src = "assets/04_SAMSUNG/04s_cover.gif">
+								   		<img class ="homeCover" id = "static" src = "assets/04_SAMSUNG/04s_cover.png">
+								   </div>
+
+								   <p class = "pn1"> Introducing <br> Galaxy Note 8</p>
+								   <div class = "descrip">
+								   	 <svg class = "pskills0 mHide" width="69" height="60" ><use href="#lineStart" /></svg>
+									   <div class = "pskills b2"> <p class="b2"> Experience design
+									   							<br> 3D Animation
+									   							<br> Art Direction
+									   							</p> </div>
+									   <svg class = "pskills2" width="69" height="12" ><use href="#arrow" /></svg>
+									   <div class = "pskills3"> <p class ="b2">Samsung </p></div>
+									</div>
+								</div>
+						</div>
+
+
+
+  </a>
+
+	<!--__________   Project 5: Hawke____________________-->
+    <div class="pane c5 mHide img_wrap">  	 						
+  					<a href = "project01.html"   class = "stack5 content">
+											   	   <div class = "projNum">Ø5 </div>
+											   	   <div class = "everything">
+											   	    <div class = "imgContainer img05"> <img class ="homeCover" src="assets/05_HAWKE/05h_cover.png" class= "projImage" style="width:100%;"></div>
+												   <p class = "pn1"> Transaction Banking </p>
+												   <div class = "descrip">
+												   	    <svg class = "pskills0 mHide" width="69" height="60" ><use href="#lineStart" /></svg>
+													   <div class = "pskills b2"> <p class="b2"> Leadership & Management 
+													   											<br>Ways of Working
+													   											<br> Experience Design
+
+													   							</p> </div>
+													   <svg class = "pskills2" width="69" height="12" ><use href="#arrow" /></svg>
+													   <div class = "pskills3"> <p class ="b2">_______ </p></div>
+													</div>
+												</div>
+
+				</a>
+  </div>
+
+	<!--__________   Project 6: G-Tech____________________-->
+  <div class="pane c6 img_wrap mHide"> 
+		<div class ="stacked">
+				  		<a href = "project01.html" class = "stack5 content">
+											   	   <div class = "projNum">Ø6 </div>
+
+
+											   	   <div class = "everything">
+												   <div class = "imgContainer img06"> 
+								   		<img class ="homeCover" id = "animated" src = "assets/06_GTEAM/06g_cover2.gif">
+								   		<img class ="homeCover" id = "static" src = "assets/06_GTEAM/06g_cover.png"></div>
+												   <p class = "pn1"> Defining Brand Motion </p>
+												   <div class = "descrip">
+												   	    <svg class = "pskills0 mHide" width="69" height="60" ><use href="#lineStart" /></svg>
+													   <div class = "pskills b2"> <p class="b2">Motion Design
+									
+													   							</p> </div>
+													   <svg class = "pskills2" width="69" height="12" ><use href="#arrow" /></svg>
+													   <div class = "pskills3"> <p class ="b2">Western Digital </p></div>
+													</div>
+												</div>
+										</a>
+										<!--div onclick = "location.href = 'motion.html';" class = "stack6 mHide">
+										   				<div class = "imgContainer img06"> <img src="assets/06_GTEAM/motion2.png" class= "projImage" style="width:70%;"></div>
+							</div-->
+
+		</div>
+  </div>
+
+	<!--______________   Project 7: Taggle____________________-->
+    <!--div class="pane card c7 mHide img_wrap">  	 						
+  						<div onclick = "location.href = 'project01.html';" class = "content">
+							   	   <div class = "projNum">Ø7 </div>
+							   	   <div class = "everything">
+								   <div class = "imgContainer img07"> <img class ="homeCover" src="assets/09_TAGGLE/09t_cover.png" class= "projImage" style="width:100%;"></div>
+								   <p class = "pn1"> 
+								  Simplifying Email </p>
+								   <div class = "descrip">
+								   	    <svg class = "pskills0 mHide" width="69" height="60" ><use href="#lineStart" /></svg>
+									   <div class = "pskills b2"> <p class="b2"> Experience Strategy
+									   											 <br> Experience Design
+									   											 <br> Motion Design
+									
+									   							</p> </div>
+									   <svg class = "pskills2" width="69" height="12" ><use href="#arrow" /></svg>
+									   <div class = "pskills3"> <p class ="b2">_________</p></div>
+									</div>
+								</div>
+						</div>
+  </div-->
+
+  <!-- endLast necessary for JS-->
+
+  <!--_______________   Project 8: SXSW____________________-->
+  <div class="pane card c8 mHide img_wrap" id ="endLast">  	 						
+  						<a href = "project01.html"   class = "content">
+							   	   <div class = "projNum">Ø8 </div>
+							   	   <div class = "everything">
+								   <div class = "imgContainer img08"> 
+
+										<img class ="homeCover" id = "animated" src = "assets/08_SXSW/08s_cover.gif">
+								   		<img class ="homeCover" id = "static" src = "assets/08_SXSW/08s_cover.jpg">
+								   	</div>
+								   <p class = "pn1"> Discovering Cultural <br> Design Differences </p>
+								   <div class = "descrip">
+								   	    <svg class = "pskills0 mHide" width="69" height="60" ><use href="#lineStart" /></svg>
+									   <div class = "pskills b2"> <p class="b2"> Experience Analysis
+									   										<br> Research
+									   										<br> Public Speaking
+									
+									   							</p> </div>
+									   <svg class = "pskills2" width="69" height="12" ><use href="#arrow" /></svg>
+									   <div class = "pskills3"> <p class ="b2">SXSW 2020
+									   	<br> R/GA's Creativity X
+									   	<br> R/GA FutureVision
+									   	<br> Brown/RISD Fall 2020
+
+									   </p></div>
+									</div>
+								</div>
+						</a>
+  </div>
+
+<div class = "dHide spacer"> 
+</div>
+	<div class= "mHide" id = "moveBar"></div>
+	<div class = "mHide" id = "moveBar2"></div>
+
+<div class = "mHide locator">
+	<p class = "lBar">Info</p>
+	<p class = "lBar" id = "variables">01</p>
+	<p class = "lBar">02</p>
+	<p class = "lBar">03</p>
+	<p class = "lBar">04</p>
+	<p class = "lBar">05</p>
+	<p class = "lBar">06</p>
+	<p class = "lBar">07</p>
+	<p class = "lBar">08</p>
+</div>
+
+
+<!--div class = "dHide">
+Mobile footer goes here </div-->
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+<script type="text/javascript" src="index_sidescroll.js"></script>
+
+</body>
+</html>
