@@ -187,6 +187,17 @@ p.b2 {
 	color: var(--H_typeDark);
 }
 
+
+p.b5{
+	text-align:right;
+	font-family:'Roboto Mono', monospace;
+	overflow-wrap: normal: 
+	white-space: normal;
+	font-size: 12px;
+	color: var(--H_typeDark);
+
+}
+
 p.pn1{
 	font-size: 40px;
 	margin-top:15px;
@@ -282,7 +293,7 @@ p.B1{
    /* background-color: var(--H_bkg);*/
     z-index: 10000;
     width: 100vw;
-    height:28px;
+    height:40px;
 	position: fixed;
 	bottom: 0;
 	display: flex;
@@ -307,7 +318,7 @@ p.B1{
 	border: 1px solid var(--H_typeline);
 	position: fixed;
 	z-index: 500;
-	bottom: 4px;
+	bottom: 15px;
 	/*background-color: var(--H_typeline);*/
 }
 
@@ -318,7 +329,7 @@ p.B1{
 	border: 1px solid var(--H_typeline);
 	position: fixed;
 	z-index: 501;
-	bottom: 4px;
+	bottom: 15px;
 	/*background-colo.r: var(--H_typeline);*/
 }
 
@@ -459,7 +470,7 @@ nav {
 .pskills3 {
 	display: block;
     padding-left: 30px;
-    text-align: right;
+   /* text-align: right;*/
 
 }
 
@@ -593,7 +604,6 @@ p.creditAbout{
 }
 
 .edu3 {
-	width: 30%;
 	float: left;
 	font-size: 18px;
 	padding-left: 15px;
@@ -813,7 +823,7 @@ p.pn1{
 
 
 .pane {
-	height: calc(100vh - 122px);
+	height: calc(100vh - 130px);
 	padding-bottom: 50px;
 	display:flex;
 	position:relative;
@@ -1115,8 +1125,17 @@ p.credit{
 
 }
 .pHeadNumber{
-	padding-top: 50px;
+	position: relative;
+	padding-top: 80px;
 
+	padding-left: 30px;
+
+}
+
+#funcArrow {
+	background-color: 1px solid red;
+	margin-right: 0;
+	padding-left: 100px;
 }
 
 .pHeadDesc{
@@ -1125,8 +1144,8 @@ width: 50%;
 
 
 }
-.spacer{
-	height: 200px;
+.spacer2{
+	height: 00px;
 }
 
 .pHeadDesc{
@@ -1134,6 +1153,7 @@ width: 50%;
 }
 
 .functional{
+	text-align: right;
 	padding-top:30px;
 	align-self: end;
 	float:right;
@@ -1231,6 +1251,47 @@ p.H2{
 }
 
 
+.nextNavigation {
+	width: 100%;
+	text-decoration: none;
+	color: var(--H_typeline);
+	display:flex;
+}
+
+.prevPage{
+	padding: 30px;
+	padding-left: 60px;
+	flex: 0 0 38%;
+	text-decoration: none;
+	color: var(--H_typeline);
+
+	border-top: 1px solid var(--H_lineDark);
+
+}
+
+.prevPage:Hover{
+	border-top: 5px solid var(--H_typeline);
+}
+
+.nextPage{
+	padding:30px;
+ flex:1;
+	text-decoration: none;
+	color: var(--H_typeline);
+	padding-left:60px;
+
+	border-top: 1px solid var(--H_lineDark);
+	border-left: 1px solid var(--H_lineDark);
+	overflow: hidden;
+	padding-bottom: 80px;
+
+}
+
+.nextPage:Hover {
+	border-top: 5px solid var(--H_typeline);
+}
+
+
 
 @media only screen and (min-width: 1200px){
 .projectPage{
@@ -1241,8 +1302,7 @@ p.H2{
 
 	}
 .pHeadNumber{
-	float:left;
-	padding-right: 50px
+	padding:0;
 
 }
 
@@ -1291,10 +1351,12 @@ p.H2{
 
 
 @media only screen and (max-height: 400px){
-	.projNum{
+	/*.projNum{
 		display: none;
 	}*/
-
+	p.pn1 {
+		margin-top: -5px;
+	}
 	p.HiThere{
 			display: inline-block;
 			font-size: 10vh;
