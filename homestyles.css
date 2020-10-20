@@ -615,6 +615,189 @@ p.creditAbout{
 }
 
 
+
+
+/* ___________________project pages */
+
+
+.projectPage{
+	margin-top: 40px;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+.projectHeader{
+	width: 100%;
+	display: relative;
+
+}
+.pHeadNumber{
+	position: relative;
+	padding-top: 80px;
+
+	padding-left: 30px;
+
+}
+
+#funcArrow {
+	background-color: 1px solid red;
+	margin-right: 0;
+	padding-left: 100px;
+}
+
+.pHeadDesc{
+float: left;
+width: 50%;
+
+
+}
+.spacer2{
+	height: 00px;
+}
+
+
+.functional{
+	text-align: right;
+	padding-top:30px;
+	align-self: end;
+	float:right;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+p.bDesc {
+	font-size: 18px;
+	/*padding-right: 5vw;*/
+
+}
+
+p.H1{
+	font-size: 50px;
+	margin: 0;
+	margin-top: 20px;
+}
+
+p.H2{
+	font-size: 20px;
+}
+
+
+
+.pImage{
+	width:100%;
+}
+
+
+.process{
+	border-top: 1px solid var(--H_typeline);
+	border-bottom: 1px solid var(--H_typeline);
+}
+
+
+.viewProcess {
+	background-color: var(--H_bkg);
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  color: var(--H_typeline);
+  margin-top: 60px;
+  border-bottom: 1px solid var(--H_typeline);
+  /*border-bottom: 1px solid var(--H_typeline);*/
+}
+
+.active2, .viewProcess:hover {
+  border-bottom: 5px solid var(--H_typeline);
+  margin-bottom: 5px;
+}
+
+.viewProcess:after {
+  content: '\002B';
+  color: white;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+
+.active2:after {
+  content: "\2212";
+}
+
+.processContent {
+  padding: 10px 100px 0 100px;
+  width: 100%;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 1s ease-out;
+
+  border-bottom: 1px solid var(--H_typeline);
+}
+
+.pCon{
+	width: 70%;
+}
+
+.fillertext{
+	height: 1200px;
+	background-color: #FFFFFF;
+}
+
+.closeProcess {
+
+}
+
+
+.nextNavigation {
+	width: 100%;
+	text-decoration: none;
+	color: var(--H_typeline);
+	display:flex;
+}
+
+.prevPage{
+	padding: 30px;
+	padding-left: 60px;
+	flex: 0 0 38%;
+	text-decoration: none;
+	color: var(--H_typeline);
+
+	border-top: 1px solid var(--H_lineDark);
+
+}
+
+.prevPage:Hover{
+	border-top: 5px solid var(--H_typeline);
+}
+
+.nextPage{
+	padding:30px;
+ flex:1;
+	text-decoration: none;
+	color: var(--H_typeline);
+	padding-left:60px;
+
+	border-top: 1px solid var(--H_lineDark);
+	border-left: 1px solid var(--H_lineDark);
+	overflow: hidden;
+	padding-bottom: 80px;
+
+}
+
+.nextPage:Hover {
+	border-top: 5px solid var(--H_typeline);
+}
+
+
+
+
+
 /* _________________________MOBILE_________________________ */
 @media only screen and (max-width: 480px){
 .mHide {
@@ -742,6 +925,29 @@ p.pn1{
 	position: relative;
 	margin-top: 10px;
 	float: left;
+}
+
+
+.projectPage{
+	margin: 0;
+	padding: 5px;
+}
+
+.pHeadNumber{
+	padding:0;
+}
+
+.nextPage{
+	padding-left:15px;
+}
+
+p.H1 {
+
+font-size: 30px;
+	}
+.pHeadDesc{
+	width:100%;
+
 }
 
 
@@ -1110,185 +1316,6 @@ p.credit{
 
 
 
-/* ___________________project pages */
-
-
-.projectPage{
-	margin-top: 40px;
-	padding-left: 30px;
-	padding-right: 30px;
-}
-.projectHeader{
-	width: 100%;
-	display: relative;
-
-}
-.pHeadNumber{
-	position: relative;
-	padding-top: 80px;
-
-	padding-left: 30px;
-
-}
-
-#funcArrow {
-	background-color: 1px solid red;
-	margin-right: 0;
-	padding-left: 100px;
-}
-
-.pHeadDesc{
-float: left;
-width: 50%;
-
-
-}
-.spacer2{
-	height: 00px;
-}
-
-.pHeadDesc{
-
-}
-
-.functional{
-	text-align: right;
-	padding-top:30px;
-	align-self: end;
-	float:right;
-}
-
-.clearfix::after {
-  content: "";
-  clear: both;
-  display: table;
-}
-
-p.bDesc {
-	font-size: 18px;
-	/*padding-right: 5vw;*/
-
-}
-
-p.H1{
-	font-size: 50px;
-	margin: 0;
-	margin-top: 20px;
-}
-
-p.H2{
-	font-size: 20px;
-}
-
-
-
-.pImage{
-	width:100%;
-}
-
-
-.process{
-	border-top: 1px solid var(--H_typeline);
-	border-bottom: 1px solid var(--H_typeline);
-}
-
-
-.viewProcess {
-	background-color: var(--H_bkg);
-  color: white;
-  cursor: pointer;
-  padding: 18px;
-  width: 100%;
-  border: none;
-  text-align: left;
-  outline: none;
-  font-size: 15px;
-  color: var(--H_typeline);
-  margin-top: 60px;
-  border-bottom: 1px solid var(--H_typeline);
-  /*border-bottom: 1px solid var(--H_typeline);*/
-}
-
-.active2, .viewProcess:hover {
-  border-bottom: 5px solid var(--H_typeline);
-  margin-bottom: 5px;
-}
-
-.viewProcess:after {
-  content: '\002B';
-  color: white;
-  font-weight: bold;
-  float: right;
-  margin-left: 5px;
-}
-
-.active2:after {
-  content: "\2212";
-}
-
-.processContent {
-  padding: 10px 100px 0 100px;
-  width: 100%;
-  max-height: 0;
-  overflow: hidden;
-  transition: max-height 1s ease-out;
-
-  border-bottom: 1px solid var(--H_typeline);
-}
-
-.pCon{
-	width: 70%;
-}
-
-.fillertext{
-	height: 1200px;
-	background-color: #FFFFFF;
-}
-
-.closeProcess {
-
-}
-
-
-.nextNavigation {
-	width: 100%;
-	text-decoration: none;
-	color: var(--H_typeline);
-	display:flex;
-}
-
-.prevPage{
-	padding: 30px;
-	padding-left: 60px;
-	flex: 0 0 38%;
-	text-decoration: none;
-	color: var(--H_typeline);
-
-	border-top: 1px solid var(--H_lineDark);
-
-}
-
-.prevPage:Hover{
-	border-top: 5px solid var(--H_typeline);
-}
-
-.nextPage{
-	padding:30px;
- flex:1;
-	text-decoration: none;
-	color: var(--H_typeline);
-	padding-left:60px;
-
-	border-top: 1px solid var(--H_lineDark);
-	border-left: 1px solid var(--H_lineDark);
-	overflow: hidden;
-	padding-bottom: 80px;
-
-}
-
-.nextPage:Hover {
-	border-top: 5px solid var(--H_typeline);
-}
 
 
 
