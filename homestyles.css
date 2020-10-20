@@ -637,7 +637,6 @@ p.creditAbout{
 
   }
 .topnav {
-	background-color: red;
 	z-index: 9999999999;
 	position: sticky;
 }
