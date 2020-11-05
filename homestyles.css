@@ -104,8 +104,6 @@ body{
 
 
 .abc{
-	font-size: 18px;
-	background-color: var(--H_bkg);
 	border: none;
 	color: var(--H_typeline);
 	padding: 0;
@@ -115,8 +113,8 @@ body{
 }
 
 #emailCopy{
-	font-size:18px;
 	margin:0;
+	margin-right: 10px;
 }
 
 .abc:hover {
@@ -129,7 +127,14 @@ body{
   position: absolute;
   display: inline-block;
       outline: none;
+      font-size: 20px;
 }
+
+
+.tt3{
+	font-size:24px;
+}
+
 
 .tooltip .tooltiptext {
 	font-family:'Roboto Mono', monospace;
@@ -158,6 +163,45 @@ body{
 	text-align: left;
 }
 
+
+
+
+.tooltipA {
+  padding-top:2px;
+      outline: none;
+}
+
+.tooltipA .tooltiptext2 {
+	margin-top: 15px;
+	font-family:'Roboto Mono', monospace;
+	font-size: 12px;
+  visibility: hidden;
+  color: var(--H_typeline);
+  overflow: visible;
+  z-index: 999;
+  stroke: white;
+  opacity: 0;
+
+  position: absolute;
+  transition: opacity 0.3s;
+  fill: none;
+}
+
+.tooltipA:hover .tooltiptext2 {
+  visibility: visible;
+  opacity: 1;
+}
+
+
+
+
+.tip3 {
+	padding-top: 22px;
+	margin-left: 10px;
+	text-align: left;
+	text-decoration: none;
+	position: relative;
+}
 
 
 		/* _________________________GENERAL STYLING ________________________________*/	
@@ -572,10 +616,23 @@ p.aDesc {
 	margin-right: 50px;
 }
 
+.itme {
+	margin-top: 20px;	
+	font-size: 12px;
+	display: inline;
+	font-family:'Roboto Mono', monospace;
+
+}
+.itmemoji{
+	font-size: 20px;
+	display: inline;
+	padding-top:10px;
+}
+
 #CTAResume{
-	padding-top: 50px;
+	margin-top: 80px;
 	opacity: 80%;
-	padding-bottom: 100px; 
+	padding-bottom: 38px; 
 }
 
 #CTAResume:hover {
@@ -602,7 +659,7 @@ p.aDesc {
 }
 
 .socialAbout {
-	padding-top: 50px;
+	padding-top: 80px;
 }
 
 
@@ -621,7 +678,7 @@ p.creditAbout{
 .edu3 {
 	float: left;
 	font-size: 18px;
-	padding-left: 15px;
+	padding-left: 5px;
 	margin-top: -25px;
 }
 
@@ -629,6 +686,9 @@ p.creditAbout{
 	font-size: 18px;
 }
 
+.txt {
+	margin:0px;
+}
 
 
 
@@ -1122,7 +1182,7 @@ display: inline-block;
 
 .stack2{
 	width: 100%;
-	height: 120px;
+	height: 150px;
 	text-decoration: none;
 	border-top: 1px solid var(--H_lineDark);
 	position: absolute;
@@ -1143,7 +1203,7 @@ display: inline-block;
 	text-align: center;
 	overflow:hidden;
 	height: calc(100vh - 450px);
-	max-height: 580px;
+	max-height: 538px;
 }
 
 
@@ -1172,13 +1232,13 @@ p.credit{
 	font-size: 12px;
 	position: absolute; 
 	right:20px;
-	bottom:0px;
+	bottom:10px;
 	color: var(--H_typeDark);
 }
 
 .social {
 	position: absolute;
-	bottom: 10px;
+	bottom: 20px;
 	left: 30px;
 }
 
@@ -1194,36 +1254,36 @@ p.credit{
 }
 
 .c1 {
-	flex:0 0 580px;
+	flex:0 0 589px;
 }
 
 
 .c2 {
-	flex:0 0 600px;
+	flex:0 0 589px;
 }
 
 .c3 {
-	flex:0 0 600px;
+	flex:0 0 589px;
 
 }
 .c4 {
-	flex:0 0 600px;
+	flex:0 0 589px;
 }
 
 .c5 {
-	flex:0 0 580px;
+	flex:0 0 589px;
 }
 
 .c6 {
-	flex:0 0 680px;
+	flex:0 0 638px;
 }
 
 .c7 {
-	flex:0 0 580px;
+	flex:0 0 589px;
 }
 
 .c8 {
-	flex:0 0 580px;
+	flex:0 0 589px;
 }
 
 
@@ -1235,46 +1295,54 @@ p.credit{
     display: inline;
 }
 
+#sxswlogo {
+	width: 150px;
+	margin-bottom: 20px;
+	padding-left:320px;
+	position: absolute;
+	display: inline;
+}
+
 
 .img01{
 	overflow: hidden;
-	width: 500px;
+	width: 508px;
 }
 
 .img02{
 	overflow: hidden;
-	width:500px;
+	width:508px;
 	
 }
 .img03{
 	overflow: hidden;
-	width: 500px;
+	width: 508px;
 	/*height: calc(100vh - 500px);*/
 	/*height: 280px;*/
 }
 .img04{
 	overflow: hidden;
 
-	width:490px;
+	width:508px;
 
 }
 .img05{
 	overflow: hidden;
-	width: 500px;
+	width: 508px;
 }
 .img06{
 	overflow: hidden;
-	width: 600px;
+	width: 580px;
 	/*height: calc(100vh - 520px);*/
 }
 .img07{
 	overflow: hidden;
-	width: 500px;
+	width: 508px;
 }
 
 .img08{
 	overflow: hidden;
-	width: 500px;
+	width: 508px;
 }
 
 
@@ -1295,8 +1363,6 @@ p.credit{
 	width: 100%;
 	height: 150%;
 	/*position: absolute;*/
-	padding-left: 30px;
-	padding-right:80px;
 	overflow: hidden;
 
 }
@@ -1320,8 +1386,6 @@ p.credit{
 	width: 100%;
 	height: 130%;
 	/*position: absolute;*/
-	padding-left: 30px;
-	padding-right:80px;
 	overflow: hidden;
 
 }
