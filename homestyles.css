@@ -441,7 +441,7 @@ header {
 
 .bar1, .bar3 {
   width: 20px;
-  height: 2px;
+  height: 1px;
   background-color: white;
   margin: 3px 0;
   transition: 0.4s;
@@ -477,20 +477,20 @@ header {
 
 .change .contents {
 	height:100vh;
-	background-color: black;
+	background-image: linear-gradient(black,#12123A);
  	 transition: 0.4s;
 
 }
 
 
 .change .bar1 {
-  -webkit-transform: rotate(-45deg) translate(-4px, 3px);
-  transform: rotate(-45deg) translate(-4px, 3px);
+  -webkit-transform: rotate(-135deg) translate(-4px, -4px);
+  transform: rotate(-135deg) translate(-4px, -4px);
 }
 
 .change .bar3 {
-  -webkit-transform: rotate(45deg) translate(-4px, -3px);
-  transform: rotate(45deg) translate(-4px, -3px);
+  -webkit-transform: rotate(135deg) translate(-3px,3px);
+  transform: rotate(135deg) translate(-3px, 3px);
 }
 
 .notif {
@@ -1344,8 +1344,6 @@ font-size: 30px;
 
 #headshot {
 	width: 60%;
-	margin-left: 20%;
-	text-align: center;
 }
 
 .topCreds {
