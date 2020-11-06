@@ -235,7 +235,7 @@ p.b2 {
 p.b5{
 	text-align:right;
 	font-family:'Roboto Mono', monospace;
-	overflow-wrap: normal: 
+	overflow-wrap: normal;
 	white-space: normal;
 	font-size: 12px;
 	color: var(--H_typeDark);
@@ -419,7 +419,7 @@ header {
 
 .mobileNav2{
 	text-decoration: none;
-	border-bottom: 1px solid var(--H_lineDark);
+	/*border-bottom: 1px solid var(--H_lineDark);*/
     font-size: 16px;
     height: 38px;
     padding: 0;
@@ -454,12 +454,14 @@ header {
 }
 
 .contents {
-	padding:5vh;
-	height:0;
+	background-image: linear-gradient(black,#12123A);
+	margin-top: -3px;
+	height:0px;
 	overflow: hidden;
 	text-align: center;
-	margin: auto;
  	 transition: 0.4s;
+ 	 border-bottom: 1px solid var(--H_lineDark);
+
 }
 
 .navLinks{
@@ -476,21 +478,25 @@ header {
 }
 
 .change .contents {
+		padding-top: 50px;
 	height:100vh;
-	background-image: linear-gradient(black,#12123A);
- 	 transition: 0.4s;
+ 	 transition: 0.5s ease-out;
 
 }
 
 
 .change .bar1 {
-  -webkit-transform: rotate(-135deg) translate(-4px, -4px);
-  transform: rotate(-135deg) translate(-4px, -4px);
+  /*-webkit-transform: rotate(-135deg) translate(-4px, -4px);
+  transform: rotate(-135deg) translate(-4px, -4px);*/
+  -webkit-transform: rotate(-45deg) translate(-3px, 6px);
+  transform: rotate(-45deg) translate(-3px, 6px);
 }
 
 .change .bar3 {
-  -webkit-transform: rotate(135deg) translate(-3px,3px);
-  transform: rotate(135deg) translate(-3px, 3px);
+  /*-webkit-transform: rotate(135deg) translate(-3px,3px);
+  transform: rotate(135deg) translate(-3px, 3px);*/
+  -webkit-transform: rotate(45deg) translate(-1px,-3px);
+  transform: rotate(45deg) translate(-1px, -3px);
 }
 
 .notif {
@@ -614,6 +620,11 @@ nav {
 	display:flex;
     flex-direction:column
 }
+
+.squish {
+	width: 30px;
+	margin-right: 20px;
+}
 .pskills {
 	display:flex;
     flex-direction:column
@@ -726,6 +737,7 @@ p.aDesc {
 	font-size: 12px;
 	display: inline;
 	font-family:'Roboto Mono', monospace;
+	color: var(--H_typeDark);
 
 }
 .itmemoji{
@@ -750,7 +762,7 @@ p.aDesc {
 .b4{	
 	font-family:'Roboto Mono', monospace;
 	font-size: 12px;
-	padding-left: 10px;
+	/*padding-left: 10px;*/
 	color: var(--H_typeDark);
 }
 
@@ -761,6 +773,9 @@ p.aDesc {
 .expContent {
 	margin-bottom: 10px;
 	font-size: 24px;
+	overflow-wrap: normal;
+	margin-right: 10px;
+
 }
 
 .content2{
@@ -1148,17 +1163,33 @@ p.credit{
 	display: none !important;
 }
 
+
+#static {
+	display:none;
+}
 #spiderWeb{
 	width:100%;
 	height:100%;
 }
 
+.expHeader{
+	padding-left: 30px;
+}
+.allExperiments{
+	padding-bottom: 100px;
+	margin-left: 0;
+	margin-right: 0;
+	width: calc(100vw - 30px);
+}
 .expCol1{
-float:none;
-width:100%;
+	margin-left: 15px;
+	float:none;
+	width:100%;
+	padding-bottom: 0;
 	}
 
 	.expCol2{
+		margin-left: 15px;
 		float:none;
 		width: 100%;
 	}
@@ -1265,15 +1296,14 @@ width:100%;
 
 .mobiletool {
 	display:inline-block;
-	padding-bottom: 50px;
-	position: relative;
+	position: static;
 }
 
 .socialMobile{
 	padding-left:10px;
 	display: inline-block;
-	position: relative;
-	padding-bottom: 100px;
+	position: static;
+	padding-bottom: 150px;
 }
 
 .stack1{
@@ -1282,6 +1312,7 @@ width:100%;
 
 .social1 {
 	padding-right:9px;
+	padding-top: 50px;
 }
 
 .c0{
@@ -1343,7 +1374,7 @@ font-size: 30px;
 }
 
 #headshot {
-	width: 60%;
+	width: 100%;
 }
 
 .topCreds {
@@ -1360,7 +1391,9 @@ display: inline-block;
 
 .pskills{
 	padding:0px;
+	max-width: 1480px;
 }
+
 
 .pskills2{
 	padding-left: 10px;
