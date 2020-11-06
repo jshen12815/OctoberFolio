@@ -84,6 +84,10 @@ function mobileNav() {
   }
 }
 
+function xAnime(x) {
+  x.classList.toggle("change");
+
+}
 
 dragElement(document.getElementById("moveBar"));
 

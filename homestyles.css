@@ -68,7 +68,7 @@ body{
     left: 0;
     width: 100%;
     height: 100%;
-    z-index: 99999;
+    z-index: 9999;
     pointer-events: none;
     background: black;
     animation-duration: 600ms;
@@ -417,6 +417,109 @@ header {
 }
 
 
+.mobileNav2{
+	text-decoration: none;
+	border-bottom: 1px solid var(--H_lineDark);
+    font-size: 16px;
+    height: 38px;
+    padding: 0;
+    z-index: 999999999;
+    position: fixed;
+    background-color: black;
+    width: 100vw;
+}
+
+.Mactive{
+	padding:10px;
+}
+.container {
+  display: inline-block;
+  cursor: pointer;
+  float:right;
+  margin-right: -10px;
+}
+
+.bar1, .bar3 {
+  width: 20px;
+  height: 2px;
+  background-color: white;
+  margin: 3px 0;
+  transition: 0.4s;
+}
+
+.invis {
+  width: 35px;
+  height: 2px;
+  margin: 3px 0;
+}
+
+.contents {
+	padding:5vh;
+	height:0;
+	overflow: hidden;
+	text-align: center;
+	margin: auto;
+ 	 transition: 0.4s;
+}
+
+.navLinks{
+	padding-top:8vh;
+}
+
+.mNavItem{
+	text-align: center;
+	display: block;
+	text-decoration: none;
+	color: var(--H_typeline);
+	font-size: 38px;
+	padding: 5vh;
+}
+
+.change .contents {
+	height:100vh;
+	background-color: black;
+ 	 transition: 0.4s;
+
+}
+
+
+.change .bar1 {
+  -webkit-transform: rotate(-45deg) translate(-4px, 3px);
+  transform: rotate(-45deg) translate(-4px, 3px);
+}
+
+.change .bar3 {
+  -webkit-transform: rotate(45deg) translate(-4px, -3px);
+  transform: rotate(45deg) translate(-4px, -3px);
+}
+
+.notif {
+	display:none;
+}
+
+.change .notif {
+	display: block;
+}
+
+.change .mobileNav2 {
+}
+
+
+
+.navContainer{
+    z-index: 999999999;
+}
+
+/*.expDContent {
+  width: 100%;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease-out;
+  text-align: left;
+  padding-left:5px;
+}*/
+
+
 
 .topnav {
 	text-decoration: none;
@@ -431,8 +534,8 @@ header {
 
 
 nav {
-	z-index: 999999;
-  transition: all 0.5s;
+  z-index: 999999;
+  transition: all 0.5s ease-out;
 }
 
 
@@ -605,7 +708,6 @@ nav {
 }
 
 .headshotMe{
-	width:1px;
 
 }
 
@@ -659,6 +761,10 @@ p.aDesc {
 .expContent {
 	margin-bottom: 10px;
 	font-size: 24px;
+}
+
+.content2{
+	margin-bottom: -130px;
 }
 
 .socialAbout {
@@ -883,6 +989,156 @@ p.H2{
 }
 
 
+.construction {
+	font-size: 24px;
+	color: var(--H_typeline);
+	margin: auto;
+	margin-top: 10px;
+	text-align: center;
+}
+
+
+
+.expVid {
+	width: 50%;
+	margin: auto;
+	margin-top: 100px;
+}
+
+
+.allExperiments {
+	width: calc(100vw - 50px);
+	max-width: 1200px;
+	margin: auto;
+	margin-top: 100px;
+	font-family:'Roboto Mono', monospace;
+	font-size: 14px;
+	padding-bottom: 500px;
+
+}
+
+.expCol1{
+	width:55%;
+	float: left;
+	margin-right: 5%;
+	padding-bottom:200px;
+}
+
+.expCol2{
+	width: 39%;
+	float: left;
+}
+
+
+.expImage{
+	width: 100%;
+}
+
+.expDetail {
+	background-color: transparent;
+	color: var(--H_typeline);
+  cursor: pointer;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  margin-top: 20px;
+ border-top: 12px solid var(--H_typeline);	
+  padding-top: 15px;
+  font-family:'Roboto Mono', monospace;
+	font-size: 14px;
+
+  /*border-bottom: 1px solid var(--H_typeline);*/
+}
+
+.active4, .expDetail:hover {
+  margin-bottom: 5px;
+}
+
+.expDetail:after {
+  content: '\002B';
+  display: inline-block;
+  margin-left: 5px;
+  font-size: 20px;
+  float: right;
+  transform: rotate(0deg);
+  transition: all .25s ease-in;
+  margin-top: -5px;
+}
+
+.active4:after {
+
+  content: '\002B';
+  float: right;
+  font-size: 20px;
+  display: inline-block;
+  transform: rotate(45deg);
+  transition: all .25s ease-out;
+}
+
+.expDContent {
+  width: 100%;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease-out;
+  text-align: left;
+  padding-left:5px;
+}
+
+.caseStudy {
+	display: block;
+	padding:15px;
+	padding-left:20px;
+	border: 1px solid var(--H_typeline);
+	margin-top: 30px;
+	color: var(--H_typeline);
+	text-decoration: none;
+	width:170px;
+}
+
+.caseStudy:hover{
+	color: var(--H_bkg);
+	background-color: var(--H_typeline);
+
+}
+
+.expHeader{
+	margin-top: 100px;
+	font-family: Ambiant;
+	font-size: 24px;
+	text-align: center;
+	margin:auto;
+	margin-bottom: 100px;
+}
+
+#expLG{
+	/*width: calc(100% - 30px);*/
+	/*margin-left: 30px;*/
+	text-align: right;
+}
+
+#expMW{
+	/*width: calc(100% - 30px);*/
+	/*margin-left: 30px;*/
+	text-align: right;
+	margin-top: 100px;
+}
+
+#expSIRI{
+	/*width: calc(100% - 30px);*/
+	/*margin-left: 30px;*/
+	text-align: right;
+	margin-top: 160px;
+}
+
+p.credit{
+	font-family:'Roboto Mono', monospace;
+	font-size: 12px;
+	position: absolute; 
+	right:20px;
+	bottom:10px;
+	color: var(--H_typeDark);
+}
 
 
 
@@ -891,6 +1147,21 @@ p.H2{
 .mHide {
 	display: none !important;
 }
+
+#spiderWeb{
+	width:100%;
+	height:100%;
+}
+
+.expCol1{
+float:none;
+width:100%;
+	}
+
+	.expCol2{
+		float:none;
+		width: 100%;
+	}
 
 .icon{
 	float: right;
@@ -912,7 +1183,13 @@ p.H2{
 	position: sticky;
 }
 
-
+#sxswlogo {
+	width: 118px;
+	margin-bottom: 20px;
+	margin-right:10px;
+	position: absolute;
+	display: inline;
+}
  .topnav-right.responsive {position: relative;}
  .topnav-right.responsive a.icon {
     position: fixed;
@@ -982,10 +1259,29 @@ p.H2{
 	height: 550px;
 }
 
+.mobileFooter {
+	margin-left: 10px;
+}
 
+.mobiletool {
+	display:inline-block;
+	padding-bottom: 50px;
+	position: relative;
+}
+
+.socialMobile{
+	padding-left:10px;
+	display: inline-block;
+	position: relative;
+	padding-bottom: 100px;
+}
 
 .stack1{
 	padding-left: 10px;
+}
+
+.social1 {
+	padding-right:9px;
 }
 
 .c0{
@@ -997,7 +1293,7 @@ p.H2{
 }
 
 .c8{
-	height: 800px;
+	height: 600px;
 }
 
 p.HiThere{
@@ -1041,11 +1337,12 @@ font-size: 30px;
 
 
 .aboutPadding {
-	margin:5px;
+	margin:10px;
+	margin-left: 30px;
+	margin-right: 30px;
 }
 
 #headshot {
-	display:none;
 	width: 60%;
 	margin-left: 20%;
 	text-align: center;
@@ -1063,6 +1360,28 @@ p.aDesc{
 display: inline-block;
 }
 
+.pskills{
+	padding:0px;
+}
+
+.pskills2{
+	padding-left: 10px;
+	margin-left: -30px;
+/*	width:50px;
+	text-align: right;
+	overflow: hidden;*/
+}
+
+.pContainer{
+	text-align: right;
+	width:50px;
+	overflow: hidden;
+	margin-left: 20px;
+}
+
+.pskills3{
+	padding-left: 15px;
+}
 
 }
 @media only screen and (min-width: 1000px){
@@ -1228,14 +1547,7 @@ display: inline-block;
 
 
 
-p.credit{
-	font-family:'Roboto Mono', monospace;
-	font-size: 12px;
-	position: absolute; 
-	right:20px;
-	bottom:10px;
-	color: var(--H_typeDark);
-}
+
 
 .social {
 	position: absolute;
@@ -1413,147 +1725,6 @@ p.credit{
 
 }
 
-.construction {
-	font-size: 24px;
-	color: var(--H_typeline);
-	margin: auto;
-	margin-top: 10px;
-	text-align: center;
-}
-
-
-
-.expVid {
-	width: 50%;
-	margin: auto;
-	margin-top: 100px;
-}
-
-
-.allExperiments {
-	width: calc(100vw - 50px);
-	max-width: 1200px;
-	margin: auto;
-	margin-top: 100px;
-	font-family:'Roboto Mono', monospace;
-	font-size: 14px;
-	padding-bottom: 500px;
-
-}
-
-.expCol1{
-	width:55%;
-	float: left;
-	margin-right: 5%;
-	padding-bottom:500px;
-}
-
-.expCol2{
-	width: 39%;
-	float: left;
-}
-
-
-.expImage{
-	width: 100%;
-}
-
-.expDetail {
-	background-color: transparent;
-	color: var(--H_typeline);
-  cursor: pointer;
-  width: 100%;
-  border: none;
-  text-align: left;
-  outline: none;
-  margin-top: 20px;
- border-top: 12px solid var(--H_typeline);	
-  padding-top: 15px;
-  font-family:'Roboto Mono', monospace;
-	font-size: 14px;
-
-  /*border-bottom: 1px solid var(--H_typeline);*/
-}
-
-.active4, .expDetail:hover {
-  margin-bottom: 5px;
-}
-
-.expDetail:after {
-  content: '\002B';
-  display: inline-block;
-  margin-left: 5px;
-  font-size: 20px;
-  float: right;
-  transform: rotate(0deg);
-  transition: all .25s ease-in;
-  margin-top: -5px;
-}
-
-.active4:after {
-
-  content: '\002B';
-  float: right;
-  font-size: 20px;
-  display: inline-block;
-  transform: rotate(45deg);
-  transition: all .25s ease-out;
-}
-
-.expDContent {
-  width: 100%;
-  max-height: 0;
-  overflow: hidden;
-  transition: max-height 0.3s ease-out;
-  text-align: left;
-  padding-left:5px;
-}
-
-.caseStudy {
-	display: block;
-	padding:15px;
-	padding-left:20px;
-	border: 1px solid var(--H_typeline);
-	margin-top: 30px;
-	color: var(--H_typeline);
-	text-decoration: none;
-	width:170px;
-}
-
-.caseStudy:hover{
-	color: var(--H_bkg);
-	background-color: var(--H_typeline);
-
-}
-
-.expHeader{
-	margin-top: 100px;
-	font-family: Ambiant;
-	font-size: 24px;
-	text-align: center;
-	margin:auto;
-	margin-bottom: 100px;
-}
-
-#expLG{
-	/*width: calc(100% - 30px);*/
-	/*margin-left: 30px;*/
-	text-align: right;
-}
-
-#expMW{
-	/*width: calc(100% - 30px);*/
-	/*margin-left: 30px;*/
-	text-align: right;
-	margin-top: 100px;
-}
-
-#expSIRI{
-	/*width: calc(100% - 30px);*/
-	/*margin-left: 30px;*/
-	text-align: right;
-	margin-top: 160px;
-}
 
 
 

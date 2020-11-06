@@ -21,15 +21,39 @@
 
 
 
-<svg id="fader"></svg>
- <script>
-            fadeInPage();
-        </script>
 
-<div class = "topnav">	
+
+ <nav class = "mobileNav2 scrollB dHide"  onclick = "xAnime(this)" >
+<!--button class="expDetail">Exoskeleton</button>
+						<div class="expDContent">
+							  <p>I was invited back to Lunar Gala to create a look for the alumni fashion line. This piece focused on the interplay between hard and soft</p>
+						</div-->
+	   <div class = "navContainer">
+			   <div class = "Mactive">
+			   	<a href="index.html" class="active">Jessica Shen</a>
+			   						<div class="container">
+					  <div class="bar1"></div>
+					  <div class="invis"></div>
+					  <div class="bar3"></div>
+					</div>
+			   	</div>					
+
+
+				  <div class="contents">
+				  	<div class = "navLinks">
+					    <a href="index.html" class ="mNavItem">Featured</a>
+					    <a href="experiments.html" class ="mNavItem">Experiments</a>
+					    <a href="about.html" class ="mNavItem">About</a>
+					</div>
+				  </div>
+
+		</div>
+</nav>  
+
+<nav class = "topnav scrollB mHide">	
 	   <div>
 	   <a class="active" href="index.html">Jessica Shen</a>
-	   <a href="javascript:void(0);" class="icon mHide" onclick="mobileNav()">&#9776;</a>
+	   <a href="javascript:void(0);" class="icon" onclick="mobileNav()">&#9776;</a>
 	 
 	   <div class="topnav-right mHide" id = "responsivenav">
 		    <a href="index.html" class ="navitem">Featured</a>
@@ -37,7 +61,13 @@
 		    <a href="about.html" class ="navitem">About</a>
 	  </div>
 	</div>
-</div>
+</nav>
+
+<svg id="fader"></svg>
+ <script>
+            fadeInPage();
+        </script>
+
 
 
 
@@ -76,7 +106,7 @@
 <div class = "aboutPage">
 
 	<div class = "credits topCreds">
-		<div class = "credsColumn credsLeft mHide headshotMe">
+		<div class = "credsColumn credsLeft headshotMe">
 			<img id ="headshot" src = "assets/00_ABOUT/headshot.jpg">
 			<!--svg class = "pskills0 mHide" width="69" height="60" ><use href="#lineStart" /></svg>
 			<p > Hey thats me! Hit me up at:</p>
@@ -87,10 +117,10 @@
 					<svg class = "tooltiptext" width="180" height="40" ><use href="#tippy" /></svg>
 				</div>
 			</div-->			<div>
-				<p class  = "itme">  Oh hey that's me! </p> 
-				<p class = "itmemoji" >  🧐  </p>
-				<p class = "itme"><br>Hit me up at:<br> </p>
-				<div class="tooltipA " >
+				<p class  = "itme mHide">  Oh hey that's me! </p> 
+				<p class = "itmemoji mHide" >  🧐  </p>
+				<p class = "itme mHide"><br>Hit me up at:<br> </p>
+				<div class="tooltipA mHide " >
 						<div
 						onclick="copyDivToClipboard()" onmouseout="outFunc()" class = "abc">
 						<p id = "emailCopy">j.mw.shen@gmail.com</p>   
@@ -101,7 +131,7 @@
 														
 		</div>
 		<div class = "credsColumn credsRight"> 
-			<p class = "aDesc"> I’m an Experience Design Director at R/GA New York, where I create interactive experiences for global clients, ranging from product experience & strategy to brand motion design. <br><br>
+			<p class = "aDesc"> Hi there! I’m an Experience Design Director at R/GA New York, where I create interactive experiences for global clients, ranging from product experience & strategy to brand motion design. <br><br>
 
 			At R/GA I’ve had the opportunity to work abroad in Shanghai and Singapore, where I got the chance to learn from and design for the vastly different cultures and systems across Asia Pacific.  <br><br>
 
