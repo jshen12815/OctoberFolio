@@ -604,7 +604,10 @@ nav {
 	padding-top: 50px;
 }
 
+.headshotMe{
+	width:1px;
 
+}
 
 #headshot{
 	width: 100%;
@@ -1042,6 +1045,7 @@ font-size: 30px;
 }
 
 #headshot {
+	display:none;
 	width: 60%;
 	margin-left: 20%;
 	text-align: center;
