@@ -625,6 +625,7 @@ nav {
 	width: 30px;
 	margin-right: 20px;
 }
+
 .pskills {
 	display:flex;
     flex-direction:column
@@ -845,10 +846,14 @@ p.creditAbout{
 }
 
 .pHeadDesc{
-float: left;
+/*float: left;*/
 width: 50%;
+font-size:18px;
 
+}
 
+.headBud {
+	float:left;
 }
 .spacer2{
 	height: 00px;
@@ -1157,12 +1162,49 @@ p.credit{
 
 
 
+@media only screen and (max-width: 700px){
+	.expHeader{
+	padding-left: 30px;
+}
+.allExperiments{
+	padding-bottom: 100px;
+	margin-left: 0;
+	margin-right: 0;
+	width: calc(100vw - 30px);
+}
+.expCol1{
+	margin-left: 15px;
+	float:none;
+	width:100%;
+	padding-bottom: 0;
+	}
+
+.expCol2{
+		margin-left: 15px;
+		float:none;
+		width: 100%;
+	}
+
+	#headshot {
+	width: 50%;
+}
+
+.hidehide{
+	display: none;
+}
+
+}
+
+
 /* _________________________MOBILE_________________________ */
 @media only screen and (max-width: 480px){
 .mHide {
 	display: none !important;
 }
 
+.spacer{
+padding-top: 0px;
+}
 
 #static {
 	display:none;
@@ -1181,6 +1223,10 @@ p.credit{
 	margin-right: 0;
 	width: calc(100vw - 30px);
 }
+
+.socialAbout {
+	padding-top: 120px;
+}
 .expCol1{
 	margin-left: 15px;
 	float:none;
@@ -1188,7 +1234,7 @@ p.credit{
 	padding-bottom: 0;
 	}
 
-	.expCol2{
+.expCol2{
 		margin-left: 15px;
 		float:none;
 		width: 100%;
@@ -1312,11 +1358,10 @@ p.credit{
 
 .social1 {
 	padding-right:9px;
-	padding-top: 50px;
 }
 
 .c0{
-	height: 420px;
+	height: 480px;
 }
 
 .c5 {
@@ -1338,7 +1383,7 @@ p.pn1{
 .CTA {
 	display: block;
 	position: relative;
-	margin-top: 10px;
+	margin-top: 20px;
 	float: left;
 }
 
@@ -1573,9 +1618,6 @@ display: inline-block;
 .projName{
 	padding-top: 20px;
 }
-
-
-
 
 
 
