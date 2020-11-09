@@ -839,6 +839,20 @@ p.creditAbout{
 
 }
 
+
+.aDescLink{
+	color: var(--H_typeline);
+	font-size: 18px;
+	border: 1px solid var(--H_typeline);
+	padding:10px;
+	text-decoration: none;
+}
+
+
+.aDescLink:hover {
+	background-color: var(--H_typeline);
+	color:var(--H_bkg);
+}
 #funcArrow {
 	background-color: 1px solid red;
 	margin-right: 0;
@@ -850,6 +864,11 @@ p.creditAbout{
 width: 50%;
 font-size:18px;
 
+}
+
+
+.teambeam{
+	color: var(--H_typeDark);
 }
 
 .headBud {
@@ -916,46 +935,64 @@ p.H2{
 
 
 .viewProcess {
-  background-color: var(--H_bkg);
-  color: white;
+  background-color: transparent;
   cursor: pointer;
   padding: 18px;
   width: 100%;
   border: none;
   text-align: left;
   outline: none;
-  font-size: 15px;
   color: var(--H_typeline);
+  font-family: Ambiant;
+  font-size: 22px;
   margin-top: 60px;
+  border-top: 2px solid var(--H_typeline);
+
   /*border-bottom: 1px solid var(--H_typeline);*/
 }
 
-.active2, .viewProcess:hover {
+/*.active2, .viewProcess:hover {
   margin-bottom: 5px;
-}
+}*/
 
 .viewProcess:after {
   content: '\002B';
-  color: white;
-  font-weight: bold;
-  float: right;
+  display: inline-block;
   margin-left: 5px;
+  font-size: 25px;
+  float: right;
+  font-family: "Roboto Mono";
+  transform: rotate(0deg);
+  transition: all .25s ease-in;
+  margin-top: -5px;
+
 }
 
 .active2:after {
-  content: "\2212";
+  content: '\002B';
+  float: right;
+  font-size: 25px;
+  display: inline-block;
+  transform: rotate(45deg);
+  transition: all .25s ease-out;
 }
 
+
+
+
 .processContent {
-  padding: 10px 100px 0 100px;
   width: 100%;
   max-height: 0;
   overflow: hidden;
-  transition: max-height 1s ease-out;
+  transition: max-height 0.3s ease-out;
+  text-align: left;
+  padding-left:5px;
+  border-bottom: 2px solid var(--H_typeline);
 }
 
 .pCon{
 	width: 70%;
+	margin-left: 15px;
 }
 
 .fillertext{
@@ -1160,6 +1197,9 @@ p.credit{
 	color: var(--H_typeDark);
 }
 
+.Boto{
+	font-family:'Roboto Mono', monospace;
+}
 
 
 @media only screen and (max-width: 700px){
@@ -1192,6 +1232,7 @@ p.credit{
 .hidehide{
 	display: none;
 }
+
 
 }
 
@@ -1338,6 +1379,7 @@ padding-top: 0px;
 
 .mobileFooter {
 	margin-left: 10px;
+	height: 90px;
 }
 
 .mobiletool {
@@ -1349,7 +1391,7 @@ padding-top: 0px;
 	padding-left:10px;
 	display: inline-block;
 	position: static;
-	padding-bottom: 150px;
+	padding-bottom: 100px;
 }
 
 .stack1{
