@@ -49,7 +49,7 @@ body{
 		  /*font-family:'Lora', serif; */
 		  background-color: var(--H_bkg);
 
-		  background-image: linear-gradient(black,#12123A);
+		 background-image: linear-gradient(black,#080828); /*12123A);*/
 		  background-attachment: fixed;
 		  margin: 0;
 		  padding: 0;
