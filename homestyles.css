@@ -863,6 +863,8 @@ p.creditAbout{
 /*float: left;*/
 width: 50%;
 font-size:18px;
+letter-spacing: 0.5px;
+word-spacing: 1px;
 
 }
 
@@ -951,6 +953,28 @@ p.H2{
   /*border-bottom: 1px solid var(--H_typeline);*/
 }
 
+
+.viewProcess2 {
+  background-color: transparent;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  color: var(--H_typeline);
+  font-family: Ambiant;
+  font-size: 22px;
+  margin-top: 60px;
+  border-top: 2px solid var(--H_typeline);
+
+  /*border-bottom: 1px solid var(--H_typeline);*/
+}
+
+
+
+
+
 /*.active2, .viewProcess:hover {
   margin-bottom: 5px;
 }*/
@@ -989,6 +1013,20 @@ p.H2{
   padding-left:5px;
   border-bottom: 2px solid var(--H_typeline);
 }
+
+
+
+.processContent2 {
+  width: 100%;
+  overflow: hidden;
+  transition: max-height 0.3s ease-out;
+  text-align: left;
+  padding-left:5px;
+  border-bottom: 2px solid var(--H_typeline);
+}
+
+
+
 
 .pCon{
 	width: 70%;
@@ -1067,7 +1105,6 @@ p.H2{
 	width: calc(100vw - 50px);
 	max-width: 1200px;
 	margin: auto;
-	margin-top: 100px;
 	font-family:'Roboto Mono', monospace;
 	font-size: 14px;
 	padding-bottom: 500px;
@@ -1092,6 +1129,24 @@ p.H2{
 }
 
 .expDetail {
+	background-color: transparent;
+	color: var(--H_typeline);
+  cursor: pointer;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  margin-top: 20px;
+ border-top: 12px solid var(--H_typeline);	
+  padding-top: 15px;
+  font-family:'Roboto Mono', monospace;
+	font-size: 14px;
+
+  /*border-bottom: 1px solid var(--H_typeline);*/
+}
+
+
+.expDetailb {
 	background-color: transparent;
 	color: var(--H_typeline);
   cursor: pointer;
@@ -1136,6 +1191,15 @@ p.H2{
 .expDContent {
   width: 100%;
   max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease-out;
+  text-align: left;
+  padding-left:5px;
+}
+
+
+.expDContent2 {
+  width: 100%;
   overflow: hidden;
   transition: max-height 0.3s ease-out;
   text-align: left;
