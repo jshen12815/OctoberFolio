@@ -1245,11 +1245,11 @@ p.H2{
 	margin-top: 100px;
 }
 
-#expSIRI{
+.expSIRI{
 	/*width: calc(100% - 30px);*/
 	/*margin-left: 30px;*/
 	text-align: right;
-	margin-top: 160px;
+	margin-top: 130px;
 }
 
 p.credit{
@@ -1265,6 +1265,10 @@ p.credit{
 	font-family:'Roboto Mono', monospace;
 }
 
+
+#spiderVid {
+	height: 200px;
+}
 
 @media only screen and (max-width: 700px){
 	.expHeader{
@@ -1307,6 +1311,7 @@ p.credit{
 	display: none !important;
 }
 
+
 .spacer{
 padding-top: 0px;
 }
@@ -1316,8 +1321,9 @@ padding-top: 0px;
 }
 #spiderWeb{
 	width:100%;
-	height:100%;
+	height:70%;
 }
+
 
 .expHeader{
 	padding-left: 30px;
@@ -1366,8 +1372,8 @@ padding-top: 0px;
 }
 
 #sxswlogo {
-	width: 118px;
-	margin-bottom: 20px;
+	width: 100px;
+	margin-bottom: 18px;
 	margin-right:10px;
 	position: absolute;
 	display: inline;
@@ -1546,10 +1552,13 @@ display: inline-block;
 	max-width: 1480px;
 }
 
+.marg30{
+	margin-left: -30px
+}
 
 .pskills2{
 	padding-left: 10px;
-	margin-left: -30px;
+	/*margin-left: -30px;*/
 /*	width:50px;
 	text-align: right;
 	overflow: hidden;*/
@@ -1789,8 +1798,8 @@ display: inline-block;
 }
 
 #sxswlogo {
-	width: 150px;
-	margin-bottom: 20px;
+	width: 138px;
+	margin-bottom: 30px;
 	padding-left:320px;
 	position: absolute;
 	display: inline;
@@ -1984,6 +1993,16 @@ display: inline-block;
 			font-size: 5vh;	
 			}
 
+
+
+}
+
+
+@media only screen and (max-height: 550px){
+
+		.imgContainer {
+			visibility:hidden;
+		}
 }
 
 @media only screen and (max-height: 650px){
@@ -2008,6 +2027,10 @@ display: inline-block;
 
 		.stack1{
 			margin-top: -15px;
+		}
+
+		#sxswlogo{
+			visibility: hidden;
 		}
 	}
 
