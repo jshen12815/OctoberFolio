@@ -696,9 +696,12 @@ nav {
 
 
 /* _________________________Abouut_________________________ */
+a:visited {
+	color: var(--H_typeline);
 
+}
 .aboutPage{
-	max-width: 1000px;
+	max-width: 1080px;
 	margin: auto;
 	margin-bottom: 200px;
 	height: 1500px;
@@ -1756,7 +1759,7 @@ display: inline-block;
 }
 
 .c1 {
-	flex:0 0 589px;
+	flex:0 0 660px;
 }
 
 
@@ -1806,6 +1809,18 @@ display: inline-block;
 }
 
 
+#DWOlogo {
+	position: absolute;
+	width: 550px;
+	margin-top: 0;
+		overflow: hidden;
+	/*width: 138px;
+	margin-bottom: 30px;
+	padding-left:320px;
+	position: absolute;
+	display: inline;*/
+}
+
 .img01{
 	overflow: hidden;
 	width: 508px;
@@ -1818,7 +1833,7 @@ display: inline-block;
 }
 .img03{
 	overflow: hidden;
-	width: 508px;
+	width: 580px;
 	/*height: calc(100vh - 500px);*/
 	/*height: 280px;*/
 }
@@ -2004,6 +2019,12 @@ display: inline-block;
 			visibility:hidden;
 		}
 }
+@media only screen and (max-height: 780px){
+						#DWOlogo{
+			visibility: hidden;
+		}
+
+}
 
 @media only screen and (max-height: 650px){
 		/*.imgContainer{
@@ -2032,6 +2053,10 @@ display: inline-block;
 		#sxswlogo{
 			visibility: hidden;
 		}
+					#DWOlogo{
+			visibility: hidden;
+		}
+
 	}
 
 
@@ -2042,4 +2067,5 @@ display: inline-block;
 	p.pn1{
 		font-size: 38px;
 	}
+
 }
